@@ -61,4 +61,4 @@ def interact(env, agent, num_episodes=20000, window=100):
             print('\nEnvironment solved in {} episodes.'.format(i_episode), end="")
             break
         if i_episode == num_episodes: print('\n')
-    return avg_rewards, best_avg_reward
+    return avg_rewards, best_avg_reward, samp_rewards
